@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  background-color: dimgray;
+  padding: 10px;
+}
+
+#container .img-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container img {
+  margin: 2px;
+  border: 2px solid white;
+  height: 300;
+  width: 300;
+}
